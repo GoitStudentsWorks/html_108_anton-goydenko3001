@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/html_108_anton-goydenko3001/assets/favicon-664d53be.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <title>Vyshyvanka</title>
+    
+    <script type="module" crossorigin src="/html_108_anton-goydenko3001/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/html_108_anton-goydenko3001/assets/index-9c69754c.css">
+  </head>
+  <body>
+    <header class="section section-topline">
+  <div class="container heder-container">
+    <a class="logo" aria-label="go to home page" href="./index.html"
+      ><img src="/html_108_anton-goydenko3001/assets/logo-bca1e19d.svg" alt="logo" width="44" height="39"
+    /></a>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li>
+          <a class="nav-link" aria-label="read abot us" href="#about-us"
+            >About us</a
+          >
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            aria-label="view our collection"
+            href="#our-collection"
+            >our collection
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" aria-label="make an order" href="#order-section"
+            >customer order</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" aria-label="read reviews" href="#testimonials"
+            >testimonials</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <address class="adress">
+      <a class="address-link" aria-label="call us" href="tel:+380684439426"
+        >+380 (68) 443-94-26</a
+      >
+    </address>
+    <ul class="heder-social-list">
+      <li class="hederr-social-li">
+        <a
+          aria-label="go to facebook"
+          target="_blank"
+          href="https://www.facebook.com/goITclub/"
+          class="heder-social-link"
+          ><svg class="social-link-icon" width="28" height="28">
+            <use href="/html_108_anton-goydenko3001/assets/icons-c4f977b8.svg#facebook-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="heder-social-li">
+        <a
+          aria-label="go to instagram"
+          target="_blank"
+          href="https://www.instagram.com/goitclub/"
+          class="heder-social-link"
+          ><svg class="social-link-icon" width="28" height="28">
+            <use href="/html_108_anton-goydenko3001/assets/icons-c4f977b8.svg#instagram-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="hederr-social-li">
+        <a
+          aria-label="go to youtube"
+          target="_blank"
+          href="https://www.youtube.com/c/GoIT"
+          class="heder-social-link"
+          ><svg class="social-link-icon" width="28" height="28">
+            <use href="/html_108_anton-goydenko3001/assets/icons-c4f977b8.svg#youtube-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <button
+      class="menu-button js-open-menu"
+      type="button"
+      aria-label="open menu navigation"
+    >
+      <svg class="menu-batton-icon" width="44" height="30">
+        <use href="/html_108_anton-goydenko3001/assets/icons-c4f977b8.svg#menu-icon"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero">
+  <div class="container hero-container">
+    <div class="hero-star-and-text-container">
+      <svg class="hero-star-icon" width="52" height="51">
+        <use href="/html_108_anton-goydenko3001/assets/icons-c4f977b8.svg#Star-icon"></use>
+      </svg>
+      <p class="hero-text">all embroidery is made by hand</p>
+    </div>
+    <div class="hero-header-and-link-container">
+      <h1 class="hero-header">
+        Reviving the traditional
+        <span class="hero-accent">Ukrainian</span> artistry in every stitch.
+      </h1>
+      <a class="hero-order-link" href="#order-section"
+        >Order
+        <svg class="hero-order-link-icon" width="27" height="22">
+          <use href="/html_108_anton-goydenko3001/assets/icons-c4f977b8.svg#vector-icon"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="hero-image-container">
+      <picture>
+        <source
+          srcset="/html_108_anton-goydenko3001/assets/hero-desktop1280-639b83b1.jpg 1x, /html_108_anton-goydenko3001/assets/hero-desktop1280@2x-397ce74b.jpg 2x"
+          media="(min-width: 1280px)"
+          width="392"
+          height="545"
+        />
+        <source
+          srcset="/html_108_anton-goydenko3001/assets/hero-tablet-06c7d5c8.jpg 1x, /html_108_anton-goydenko3001/assets/hero-tablet@2x-a8b60a13.jpg 2x"
+          media="(min-width: 768px)"
+          width="413"
+          height="575"
+        />
+        <source
+          srcset="/html_108_anton-goydenko3001/assets/hero-phone-d64128b3.jpg 1x, /html_108_anton-goydenko3001/assets/hero-phone@2x-6335128c.jpg 2x"
+          media="(max-width: 767px)"
+          width="335"
+          height="545"
+        />
+        <img
+          class="hero-image"
+          src="/html_108_anton-goydenko3001/assets/hero-desktop1280-639b83b1.jpg"
+          alt="girl"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="about-us" id="about-us">
+  <div class="container about-us-container">
+    <div class="about-us-text-wrapper">
+      <h2 class="about-us-title">About Us</h2>
+      <p class="about-us-desc">
+        The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
+        vyshyvanka comes to life with new zest and style. Our store offers a
+        wide selection of high-quality and authentic embroidery, which combines
+        the elegance of traditional needlework and modern design.
+      </p>
+      <p class="about-us-desc">
+        In "Vyshyvanka Vibes" you will find various models of embroidery, from
+        classic to modern, corresponding to the latest fashion trends. Our
+        embroidery is made using natural fabrics and is embroidered by highly
+        qualified craftsmen who convey the beauty of Ukrainian culture in every
+        detail.We believe that vyshyvanka is not just clothing, but a symbol of
+        national pride, the heritage of our ancestors and a way of expressing
+        one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own
+        unique history and symbolism, which gives it a special meaning.
+      </p>
+    </div>
+    <div class="about-us-img-thumb">
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="/html_108_anton-goydenko3001/assets/about_us-desktop1440-4b70624e.jpg 1x, /html_108_anton-goydenko3001/assets/about_us-desktop1440@2x-b06f4863.jpg 2x"
+        />
+
+        <source
+          media="(min-width: 1280px)"
+          srcset="/html_108_anton-goydenko3001/assets/about_us-desktop1280-e94b447f.jpg 1x, /html_108_anton-goydenko3001/assets/about_us-desktop1280@2x-7aa8289d.jpg 2x"
+        />
+
+        <source
+          media="(min-width: 768px)"
+          srcset="/html_108_anton-goydenko3001/assets/about_us-tablet-602cc55d.jpg 1x, /html_108_anton-goydenko3001/assets/about_us-tablet@2x-050f308c.jpg 2x"
+        />
+
+        <source
+          media="(max-width: 767px)"
+          srcset="/html_108_anton-goydenko3001/assets/about_us-phone-36ad3add.jpg 1x, /html_108_anton-goydenko3001/assets/about_us-phone@2x-226642e3.jpg 2x"
+        />
+
+        <img src="/html_108_anton-goydenko3001/assets/about_us-phone-36ad3add.jpg" alt="vishivanka" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <!-- =============== OUR COLLECTION =========== -->
+<section class="our-collection-section section" id="our-collection">
+  <div class="container our-collection-container">
+    <div class="container-our-collection-new"></div>
+    <h2 class="collection-heading-second">Our collection</h2>
+
+    <ul class="page-list list-collection">
+      <li class="page-item collection-item">
+        <div class="container-collection-image" aria-haspopup="true">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-1-desktop1440-42942418.jpg 1x, /html_108_anton-goydenko3001/assets/collection-1-desktop1440@2x-40902923.jpg 2x"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-1-desktop1280-945a2274.jpg 1x, /html_108_anton-goydenko3001/assets/collection-1-desktop1280@2x-da1292fb.jpg 2x"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-1-tablet-e259037c.jpg 1x, /html_108_anton-goydenko3001/assets/collection-1-tablet@2x-eb88ce18.jpg 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-1-phone-171fe823.jpg 1x, /html_108_anton-goydenko3001/assets/collection-1-phone@2x-397c382e.jpg 2x"
+            />
+            <img
+              class="collection-img"
+              src="/html_108_anton-goydenko3001/assets/collection-1-desktop1440-42942418.jpg"
+              alt="Poltava blouse"
+            />
+          </picture>
+          <div class="images-overlay">
+            <p class="text-image-collection">
+              Poltava region ornament on a black women's blousering
+            </p>
+          </div>
+        </div>
+        <div class="name-item">
+          <h3 class="heading-third title-collection">
+            AUGUST Poltava women's blouseRING
+          </h3>
+          <p class="paragraph-text collection-paragraph">3300 UAH</p>
+        </div>
+      </li>
+      <li class="page-item collection-item">
+        <div class="container-collection-image">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-2-desktop1440-dcdb5bb8.jpg 1x, /html_108_anton-goydenko3001/assets/collection-2-desktop1440@2x-bb7ea3dd.jpg 2x"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-2-desktop1280-dc5fd1fa.jpg 1x, /html_108_anton-goydenko3001/assets/collection-2-desktop1280@2x-42dba24f.jpg 2x"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-2-tablet-7a3d0a60.jpg 1x, /html_108_anton-goydenko3001/assets/collection-2-tablet@2x-d77ef7ab.jpg 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-2-phone-7cd9ae57.jpg 1x, /html_108_anton-goydenko3001/assets/collection-2-phone@2x-e7e0884c.jpg 2x"
+            />
+            <img
+              class="collection-img"
+              src="/html_108_anton-goydenko3001/assets/collection-2-desktop1440-dcdb5bb8.jpg"
+              alt="Blouse Gorgany"
+            />
+          </picture>
+          <div class="images-overlay">
+            <p class="text-image-collection">
+              Women's blousering with an ornament of the Carpathian Mountains
+              region
+            </p>
+          </div>
+        </div>
+        <div class="name-item">
+          <h3 class="heading-third title-collection">Women's blouse Gorgany</h3>
+          <p class="paragraph-text collection-paragraph">3350 UAH</p>
+        </div>
+      </li>
+      <li class="page-item collection-item">
+        <div class="container-collection-image">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-3-desktop1440-c7d8e040.jpg 1x, /html_108_anton-goydenko3001/assets/collection-3-desktop1440@2x-6bf0efe1.jpg 2x"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-3-desktop1280-a2ecd464.jpg 1x, /html_108_anton-goydenko3001/assets/collection-3-desktop1280@2x-05f7280e.jpg 2x"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-3-tablet-6e6ff251.jpg 1x, /html_108_anton-goydenko3001/assets/collection-3-tablet@2x-384d8047.jpg 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-3-phone-b59d1973.jpg 1x, /html_108_anton-goydenko3001/assets/collection-3-phone@2x-4ae0fd14.jpg 2x"
+            />
+            <img
+              class="collection-img"
+              src="/html_108_anton-goydenko3001/assets/collection-3-desktop1440-c7d8e040.jpg"
+              alt="Blouse Crimea"
+            />
+          </picture>
+          <div class="images-overlay">
+            <p class="text-image-collection">
+              Women's blousering with an ornament of the region of the Ukrainian
+              Crimean Peninsula
+            </p>
+          </div>
+        </div>
+        <div class="name-item">
+          <h3 class="heading-third title-collection">Women's blouse Crimea</h3>
+          <p class="paragraph-text collection-paragraph">4000 UAH</p>
+        </div>
+      </li>
+      <li class="page-item collection-item">
+        <div class="container-collection-image">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-4-desktop1440-80df19c2.jpg 1x, /html_108_anton-goydenko3001/assets/collection-4-desktop1440@2x-52e0dbec.jpg 2x"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-4-desktop1280-1953dd1e.jpg 1x, /html_108_anton-goydenko3001/assets/collection-4-desktop1280@2x-37c2bf4f.jpg 2x"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-4-tablet-01ccc213.jpg 1x, /html_108_anton-goydenko3001/assets/collection-4-tablet@2x-23022b8d.jpg 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-4-phone-79752ae5.jpg 1x, /html_108_anton-goydenko3001/assets/collection-4-phone@2x-99d36ba5.jpg 2x"
+            />
+            <img
+              class="collection-img"
+              src="/html_108_anton-goydenko3001/assets/collection-4-desktop1440-80df19c2.jpg"
+              alt="Shirt Verkhovina"
+            />
+          </picture>
+          <div class="images-overlay">
+            <p class="text-image-collection">
+              Man's shirt with an ornament of the western region
+            </p>
+          </div>
+        </div>
+        <div class="name-item">
+          <h3 class="heading-third title-collection">Men's shirt Verkhovina</h3>
+          <p class="paragraph-text collection-paragraph">3100 UAH</p>
+        </div>
+      </li>
+      <li class="page-item collection-item">
+        <div class="container-collection-image">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-5-desktop1440-f3e01b78.jpg 1x, /html_108_anton-goydenko3001/assets/collection-5-desktop1440@2x-95d00119.jpg 2x"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-5-desktop1280-99411ee9.jpg 1x, /html_108_anton-goydenko3001/assets/collection-5-desktop1280@2x-9271fa89.jpg 2x"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-5-tablet-84d2f36a.jpg 1x, /html_108_anton-goydenko3001/assets/collection-5-tablet@2x-612c38d3.jpg 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-5-phone-4a4ac9ce.jpg 1x, /html_108_anton-goydenko3001/assets/collection-5-phone@2x-1d3b429e.jpg 2x"
+            />
+            <img
+              class="collection-img"
+              src="/html_108_anton-goydenko3001/assets/collection-5-desktop1440-f3e01b78.jpg"
+              alt="Shirt Mountain"
+            />
+          </picture>
+          <div class="images-overlay">
+            <p class="text-image-collection">
+              Men's black shirt with an ornament of the Carpathian Mountains
+              region
+            </p>
+          </div>
+        </div>
+        <div class="name-item">
+          <h3 class="heading-third title-collection">Mountain men's shirt</h3>
+          <p class="paragraph-text collection-paragraph">3300 UAH</p>
+        </div>
+      </li>
+      <li class="page-item collection-item">
+        <div class="container-collection-image">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-6-desktop1440-13d64ebd.jpg 1x, /html_108_anton-goydenko3001/assets/collection-6-desktop1440@2x-61669650.jpg 2x"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-6-desktop1280-0dca892c.jpg 1x, /html_108_anton-goydenko3001/assets/collection-6-desktop1280@2x-561d1178.jpg 2x"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-6-tablet-acac9aa9.jpg 1x, /html_108_anton-goydenko3001/assets/collection-6-tablet@2x-f1ecd57f.jpg 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/html_108_anton-goydenko3001/assets/collection-6-phone-306b3b12.jpg 1x, /html_108_anton-goydenko3001/assets/collection-6-phone@2x-7804a996.jpg 2x"
+            />
+            <img
+              class="collection-img"
+              src="/html_108_anton-goydenko3001/assets/collection-6-desktop1440-13d64ebd.jpg"
+              alt="Shirt Yasen"
+            />
+          </picture>
+          <div class="images-overlay">
+            <p class="text-image-collection">
+              Men's shirt with the symbolic name "Yasen", which broadcasts
+              eternal life and immortality
+            </p>
+          </div>
+        </div>
+        <div class="name-item">
+          <h3 class="heading-third title-collection">Men's shirt Yasen</h3>
+          <p class="paragraph-text collection-paragraph">1700 UAH</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <!-- ================= ORDER SECTION ======================================= -->
+
+<section class="section your-order-section">
+  <div class="container order-sec-bgimg-holder"></div>
+
+  <div class="container order-sec-container">
+    <div class="order-sec-ornament-box"></div>
+
+    <div class="order-form-holder" id="order-section">
+      <h2 class="order-title">
+        <span class="order-title-part-wrapper"> Your order </span> is our
+        priority: Personalized approach and quality of service
+      </h2>
+      <!-- ======== order-form =========== -->
+      <form class="order-sec-form">
+        <label class="order-form-label order-form-name-label">
+          <input
+            class="order-form-element order-form-user-name"
+            type="text"
+            name="order-form-user-name"
+            placeholder="Enter your full name"
+            pattern="[A-Za-zА-Яа-яЄєЇїІі'ь]{3,50}"
+            required
+          />
+        </label>
+        <label class="order-form-label order-form-mail-label">
+          <input
+            class="order-form-element order-form-user-mail"
+            type="email"
+            name="order-form-user-mail"
+            placeholder="Enter your email"
+            pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+        /></label>
+        <label class="order-form-label order-form-comment-label">
+          <textarea
+            class="order-form-element order-form-user-comment"
+            name="order-form-user-comment"
+            placeholder="Comments"
+          ></textarea>
+        </label>
+        <!--  Button Submit  -->
+        <button class="order-form-btn" type="submit">
+          Send
+          <svg class="order-form-btn-icon" width="24" height="17">
+            <use href="/html_108_anton-goydenko3001/assets/icons-c4f977b8.svg#vector-icon"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <!-- ======== order-pic =========== -->
+    <div class="order-pic-holder">
+      <picture class="order-sec-picture">
+        <source
+          srcset="/html_108_anton-goydenko3001/assets/order-desktop1440-7239e369.jpg 1x, /html_108_anton-goydenko3001/assets/order-desktop1440@2x-eeca6911.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/html_108_anton-goydenko3001/assets/order-desktop1280-0bc05b6a.jpg 1x, /html_108_anton-goydenko3001/assets/order-desktop1280@2x-9bd6e7bf.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/html_108_anton-goydenko3001/assets/order-tablet-dea76a94.jpg 1x, /html_108_anton-goydenko3001/assets/order-tablet@2x-6718b759.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          class="order-sec-pic-img"
+          src="/html_108_anton-goydenko3001/assets/order-desktop1280-0bc05b6a.jpg"
+          width="704"
+          height="521"
+          alt="girl in a embroidered vest"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews section" id="testimonials">
+    <div class="container">
+      <h2 class="section-title reviews-title">
+       Testimonials
+      </h2>
+      
+      <ul class="reviews-list">
+        <li class="reviews-list-item">
+          <img
+            class="reviews-list-avatar"
+            srcset="/html_108_anton-goydenko3001/assets/maria-969e8513.png 1x, /html_108_anton-goydenko3001/assets/maria@2x-8a240c3d.png 2x"
+            src="/html_108_anton-goydenko3001/assets/maria-969e8513.png"
+            alt="Maria Tkachuk"
+            width="72"
+            height="72"
+          />
+          <h3 class="reviews-list-fullname">Maria Tkachuk</h3>
+          <p class="reviews-list-text">I was pleasantly surprised by the variety of embroidery offered by Vyshyvanka Vibes.They have models for every taste - from classic to modern. I bought an embroidered dress to celebrate a special occasion and received impeccable service and refinement in every detail.</p>
+        </li>
+        
+        <li class="reviews-list-item sergey-rybachok">
+          
+          <img
+            class="reviews-list-avatar"
+            srcset="/html_108_anton-goydenko3001/assets/sergey-2c77078b.png 1x, /html_108_anton-goydenko3001/assets/sergey@2x-b7d771e4.png 2x"
+            src="/html_108_anton-goydenko3001/assets/sergey-2c77078b.png"
+            alt="Sergey Rybachok"
+            width="72"
+            height="72"
+          />
+          <h3 class="reviews-list-fullname">Sergey Rybachok</h3>
+          <p class="reviews-list-text">
+            Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are simply masterpieces! I fell in love with the quality of the materials and the skill of the artisans behind each product. This is my favorite embroidery shop where I always find something special and unique.
+          </p>
+        
+        </li>
+      
+        <li class="reviews-list-item natalia-chatuk">
+          <img
+            class="reviews-list-avatar"
+            srcset="/html_108_anton-goydenko3001/assets/natalia-f2bb763e.png 1x, /html_108_anton-goydenko3001/assets/natalia@2x-60fa72b7.png 2x"
+            src="/html_108_anton-goydenko3001/assets/natalia-f2bb763e.png"
+            alt="Natalia Chatuk"
+            width="72"
+            height="72"
+          />
+          <h3 class="reviews-list-fullname">Natalia Chatuk</h3>
+          <p class="reviews-list-text">
+            Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian culture. Their embroidery reflects the spirit and traditions of our people. I not only buy embroidered shirts for myself, but also give them to my friends abroad as a symbol of our beauty and national pride. 
+          </p>
+        </li>
+      </ul>
+     
+    </div>
+  </section>
+    </main>
+
+    <div class="footer-wrapper">
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-list">
+        <li class="footer-item-list">
+          <a class="footer-nav-link" aria-label="read abot us" href="#about-us"
+            >about us</a
+          >
+        </li>
+        <li class="footer-item-list">
+          <a
+            class="footer-nav-link"
+            aria-label="view our collection"
+            href="#our-collection"
+            >our collection</a
+          >
+        </li>
+        <li class="footer-item-list">
+          <a
+            class="footer-nav-link"
+            aria-label="make an order"
+            href="#order-section"
+            >customer order
+          </a>
+        </li>
+        <li class="footer-item-list">
+          <a
+            class="footer-nav-link"
+            aria-label="read reviews"
+            href="#testimonials"
+            >testimonials</a
+          >
+        </li>
+      </ul>
+      <h2 class="footer-text">
+        A touch of <span class="footer-text-span">Ukrainian</span> culture in
+        every embroidery
+      </h2>
+    </div>
+  </footer>
+</div>
+
+    <div class="backdrop js-menu-container">
+  <div class="mobile-menu js-menu-container" id="mobile-menu" data-menu>
+    <div class="mobile-menu-top">
+      <a class="number" aria-label="call us" href="tel:+380684439426"
+        >+380 (68) 443-94-26</a
+      >
+      <button
+        class="mobile-menu-close js-close-menu"
+        id="close"
+        aria-label="Close menu"
+        data-menu-close
+      >
+        <svg class="mobile-menu-close-icon" width="44" height="44">
+          <use href="/html_108_anton-goydenko3001/assets/icons-c4f977b8.svg#close-icon"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-navigation">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-list-item">
+          <a
+            class="mobile-menu-link"
+            data-menu-close
+            aria-label="read abot us"
+            href="#about-us"
+            >ABOUT US</a
+          >
+        </li>
+        <li class="mobile-menu-list-item">
+          <a
+            class="mobile-menu-link"
+            data-menu-close
+            aria-label="view our collection"
+            href="#our-collection"
+            >OUR COLLECTION
+          </a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a
+            class="mobile-menu-link"
+            data-menu-close
+            aria-label="make an order"
+            href="#order-section"
+            >CUSTOMER ORDER</a
+          >
+        </li>
+        <li class="mobile-menu-list-item">
+          <a
+            class="mobile-menu-link"
+            data-menu-close
+            aria-label="read reviews"
+            href="#testimonials"
+            >TESTIMONIALS</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+    
+  </body>
+</html>
